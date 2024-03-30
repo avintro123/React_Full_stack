@@ -23,7 +23,10 @@ export default function Navbar() {
                     <Link to="/" className="text-white">Home</Link>
                 </li>
                 <li className="p-4">
-                    <Link to="/about" className="text-white">About Us</Link>
+                    <Link to="/about" className="text-white">About</Link>
+                </li>
+                <li className="p-4">
+                    <Link to="/contact" className="text-white">Contact</Link>
                 </li>
             </ul>
 
@@ -37,8 +40,11 @@ export default function Navbar() {
                     <li className="p-4 border-b border-gray-600">
                         <Link to="/" className="text-white">Home</Link>
                     </li>
-                    <li className="p-4">
+                    <li className="p-4 border-b border-gray-600">
                         <Link to="/about" className="text-white">About Us</Link>
+                    </li>
+                    <li className="p-4 border-b border-gray-600">
+                        <Link to="/contact" className="text-white">Contact Us</Link>
                     </li>
                 </ul>
             </div>
